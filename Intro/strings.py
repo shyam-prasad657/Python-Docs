@@ -125,3 +125,94 @@ price = 1499.5678
 
 print("Formatted Price:")
 print(f"Price: ₹{price:.2f}")
+print()
+
+# ============================================
+# String Indexing and Slicing in Python
+# ============================================
+
+# Store a string
+text = "Python"
+
+print("Original String:")
+print(text)
+
+print()
+
+# ============================================
+# STRING INDEXING
+# ============================================
+
+# Every character has an index starting from 0
+
+# Positive Indexing
+# P  y  t  h  o  n
+# 0  1  2  3  4  5
+
+print("Positive Indexing:")
+print("text[0] =", text[0])   # First character
+print("text[1] =", text[1])
+print("text[2] =", text[2])
+print("text[5] =", text[5])   # Last character
+
+print()
+
+# Negative Indexing
+# P   y   t   h   o   n
+# -6 -5 -4 -3 -2 -1
+
+print("Negative Indexing:")
+print("text[-1] =", text[-1])   # Last character
+print("text[-2] =", text[-2])
+print("text[-6] =", text[-6])   # First character
+
+print()
+
+# ============================================
+# STRING SLICING
+# Syntax:
+# string[start : end]
+#
+# Start index is INCLUDED
+# End index is EXCLUDED
+# ============================================
+
+print("Basic Slicing:")
+
+print("text[0:2] =", text[0:2])   # Py
+print("text[0:4] =", text[0:4])   # Pyth
+print("text[2:5] =", text[2:5])   # tho
+print("text[1:6] =", text[1:6])   # ython
+
+print()
+
+# Omitting Start Index
+# Starts from the beginning
+
+print("Omitting Start:")
+print("text[:3] =", text[:3])     # Pyt
+print("text[:5] =", text[:5])     # Pytho
+
+print()
+
+# Omitting End Index
+# Goes till the end
+
+print("Omitting End:")
+print("text[2:] =", text[2:])     # thon
+print("text[4:] =", text[4:])     # on
+
+print()
+
+# Reverse String
+
+print("Reverse String:")
+print("text[::-1] =", text[::-1])
+
+print()
+
+# ============================================
+# Length of String
+# ============================================
+print("Length of String:")
+print("len(text) =", len(text))
